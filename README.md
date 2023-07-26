@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/rrqctrxc06ccgqh8?svg=true)](https://ci.appveyor.com/project/komaroff74/worckpatterns2)git
