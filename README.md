@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/rrqctrxc06ccgqh8?svg=true)](https://ci.appveyor.com/project/komaroff74/worckpatterns2)git
+[![Build status](https://ci.appveyor.com/api/projects/status/n9sn98468b7lnim7?svg=true)](https://ci.appveyor.com/project/komaroff74/worckpatterns2-70em5)
