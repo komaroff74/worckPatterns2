@@ -1,6 +1,6 @@
 package ru.netology;
+
 import com.codeborne.selenide.Condition;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -11,8 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class AuthTest {
 
-   @BeforeEach
-//    @BeforeAll
+    @BeforeEach
     void setup() {
         open("http://localhost:9999");
     }
@@ -53,6 +52,7 @@ public class AuthTest {
         $("[data-test-id='error-notification']").shouldHave(Condition.text("Пользователь заблокирован")).shouldBe(visible);
 
     }
+
     @Test
     @DisplayName("Should get error message if login with wrong login")
     void shouldGetErrorIfWrongLogin() {
@@ -66,6 +66,7 @@ public class AuthTest {
         $("[data-test-id='error-notification']").shouldHave(Condition.text("Неверно указан логин или пароль")).shouldBe(visible);
 
     }
+
     @Test
     @DisplayName("Should get error message if login with wrong password")
     void shouldGetErrorIfWrongPassword() {
